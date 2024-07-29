@@ -4758,11 +4758,7 @@ input[type=number] {
 	.progress_inner > span{margin-bottom: 16px;}
 	.circular_progress_bar .title h3{margin-bottom: 19px;}
 	.iknow_tm_services .service_list ul li .title{margin-bottom: 25px;}
-	.iknow_tm_portfolio .portfolio_filter ul li a{font-size: 16px;}
-	.iknow_tm_portfolio .portfolio_list .svg{width: 40px;height: 40px;}
-	.iknow_tm_portfolio .portfolio_list .details span{margin-bottom: 7px;font-size: 14px;}
-	.iknow_tm_portfolio .portfolio_list .details h3{font-size: 19px;}
-	.iknow_tm_portfolio .portfolio_list .details{padding-bottom: 25px;}
+	
 	.iknow_tm_testimonials .testimonials_list .text p{font-size: 19px;}
 	.iknow_tm_testimonials .testimonials_list .details .avatar{width: 50px;height: 50px;}
 	.iknow_tm_testimonials .testimonials_list .details .info h3{margin: 2px;font-size: 19px;}
@@ -4791,10 +4787,7 @@ input[type=number] {
 	.circular_progress_bar .number{font-size: 20px;}
 	.circular_progress_bar .title{max-width: 120px;}
 	.circular_progress_bar .title h3{font-size: 19px;}
-	.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list .svg{width: 30px;height: 30px;}
-	.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list .details{padding-bottom: 15px;}
-	.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list .details span{margin-bottom: 0px;font-size: 14px;}
-	.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list .details h3{font-size: 15px;}
+	
 	.iknow_tm_fixed_content .iknow_tm_services .service_list ul li .list_inner{padding: 50px 30px 48px 30px;}
 	.iknow_tm_fixed_content .iknow_tm_services .service_list ul li .title{font-size: 17px;}
 	.iknow_tm_fixed_content .iknow_tm_testimonials .testimonials_list .text p{font-size: 16px;}
@@ -4865,6 +4858,11 @@ input[type=number] {
 	.iknow_tm_mainpart_new_2 .main_menu ul li.entered span, .iknow_tm_mainpart_new_2 .main_menu ul li.current span{left: 32px;}
 }
 @media (max-width: 1040px) {
+	
+	#portfolio-img{
+			margin-left: 200px !important;
+		
+		}
 	.iknow_tm_mobile_menu{display: block;}
 	.iknow_tm_topbar.onepage{display: none;}
 	.iknow_tm_extra_demo_2 .top_shape, .iknow_tm_extra_demo_2 .bottom_shape{display: none;}
@@ -4979,8 +4977,7 @@ input[type=number] {
 	.iknow_tm_resume .resume_inner{flex-direction: column;}
 	.iknow_tm_resume .left{width: 100%;padding-right: 0px;}
 	.iknow_tm_resume .right{width: 100%;padding-left: 0px;margin-top: 55px;}
-	.iknow_tm_portfolio .portfolio_list ul li{width: 50%;}
-	.iknow_tm_portfolio .portfolio_filter{text-align: left;}
+	
 	.iknow_tm_services .service_list ul li{width: 50%;}
 	.iknow_tm_news .news_list ul li{width: 50%;}
 	.iknow_tm_contact .wrapper{flex-direction: column;}
@@ -5004,7 +5001,24 @@ input[type=number] {
 	.simple_shapes .one,.simple_shapes .two,.simple_shapes .three,.simple_shapes .four,.simple_shapes .five,.simple_shapes .six,.simple_shapes .seven,.simple_shapes .eight,.simple_shapes .nine,.simple_shapes .ten,.simple_shapes .eleven,.simple_shapes .twelve,.simple_shapes .thirteen,.simple_shapes .fourteen,.simple_shapes .fifteen,.simple_shapes .sixteen,.simple_shapes .seventeen,.simple_shapes .eighteen,.simple_shapes .nineteen,.simple_shapes .twenty{display: none;}
 	.rounded_shapes .one,.rounded_shapes .two,.rounded_shapes .three,.rounded_shapes .four,.rounded_shapes .five,.rounded_shapes .six,.rounded_shapes .seven,.rounded_shapes .eight,.rounded_shapes .nine,.rounded_shapes .ten,.rounded_shapes .eleven,.rounded_shapes .twelve,.rounded_shapes .thirteen,.rounded_shapes .fourteen,.rounded_shapes .fifteen,.rounded_shapes .sixteen,.rounded_shapes .seventeen,.rounded_shapes .eighteen{display: none;}
 }
+@media (max-width:820px) {
+	#portfolio-img{
+		margin-left: 110px !important;
+	
+	}
+}
+
 @media (max-width: 768px) {
+	#portfolio-img{
+		margin-left: 0px !important;
+		width: 170px !important;
+		margin-top: 70px;
+	
+	}
+	.iknow_tm_main_title{
+     margin-top: -50px !important;
+	}
+
 	.iknow_tm_hero_third .content .hello{font-size: 21px;}
 	.iknow_tm_hero_third .content .name{font-size: 48px;margin-bottom: 10px;}
 	.iknow_tm_hero_third .content .text{font-size: 16px;margin-bottom: 25px;}
@@ -5035,10 +5049,6 @@ input[type=number] {
 	.progress_inner span.label{font-size: 19px;}
 	.progress_inner{margin-bottom: 20px;}
 	.progress_inner > span{margin-bottom: 15px;}
-	.iknow_tm_portfolio .portfolio_list ul{margin: 0px;}
-	.iknow_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
-	.iknow_tm_portfolio .portfolio_list .details span{margin-bottom: 5px;}
-	.iknow_tm_portfolio .portfolio_list .svg{width: 40px;height: 40px;}
 	.iknow_tm_services .service_list ul{margin: 0px;}
 	.iknow_tm_services .service_list ul li{width: 100%;padding-left: 0px;}
 	.iknow_tm_services .service_list ul li .title{font-size: 21px;}
@@ -5069,14 +5079,17 @@ input[type=number] {
 	.iknow_tm_copyright.fixed .right{display: none;}
 	.iknow_tm_copyright.fixed p{font-size: 13px;}
 	.iknow_tm_copyright.fixed a{font-size: 13px;}
-	.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul{margin: 0px;}
-	.iknow_tm_fixed_content .iknow_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
 	.iknow_tm_fixed_content .iknow_tm_services .service_list ul{margin: 0px;}
 	.iknow_tm_fixed_content .iknow_tm_services .service_list ul li{width: 100%;padding-left: 0px;}
 	.iknow_tm_fixed_content .iknow_tm_news .news_list ul{margin: 0px;}
 	.iknow_tm_fixed_content .iknow_tm_news .news_list ul li{width: 100%;padding-left: 0px;}
 }
 @media (max-width: 480px){
+	#portfolio-img{
+
+		margin-top: 40px;
+	
+	}
 	.iknow_tm_modalbox .box_inner{width: 300px;}
 	.iknow_tm_resume .info_list ul li .short{flex-direction: column;align-items: baseline;}
 	.iknow_tm_resume .info_list ul li .short .job{width: 100%;padding-right: 0px;margin-bottom: 15px;}
@@ -5097,8 +5110,11 @@ input[type=number] {
 
 
 #portfolio-img{
-	width: 200px !important;
+	width: 200px ;
 
+}
+.iknow_tm_animate_section .section_inner{
+height: 100vh !important;
 }
 .iknow_tm_main_title span{
 	font-size: 35px;
